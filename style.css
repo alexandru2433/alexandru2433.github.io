@@ -94,9 +94,11 @@ nav{
   max-width: 300px;
 }
 .crop1{
-  width: vw;
-  /* height:969px; */
-  height:auto;
+  width: 100%;
+  /* height:969px;
+   */
+   height: auto;
+   min-height: 400px;
   object-fit: cover;
   overflow: hidden;
 }
