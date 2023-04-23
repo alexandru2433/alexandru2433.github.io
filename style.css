@@ -8,6 +8,11 @@ Template:       neve
 nav{
     background-color: white;
   }
+.CIAA{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+}
 .container-site{
   height: 969px;
   max-width: 1920px;
@@ -32,7 +37,7 @@ nav{
   padding-left: 20px;
 }
 .social-media:hover{
-  color:orange;
+  color:rgb(6, 123, 219);
 }
 .pd-nav{
   padding-left: 20px;
@@ -59,7 +64,7 @@ nav{
   text-align: center;
 }
 .coloare{
-  color: rgb(240, 148, 11);
+  color: rgb(109, 194, 243);
 }
 .citat{
   height: 150px;
@@ -76,7 +81,7 @@ nav{
   margin-left: 10px;
 }
 .rectangle{
-  background-color: orange;
+  background-color: rgb(6, 123, 219);
   height:120px;
   width: 400px;
   position: absolute;
@@ -124,7 +129,7 @@ nav{
   color: black;
 }
 .nav-aitem:hover{
-  color:orange !important;
+  color:rgb(6, 123, 219) !important;
   transition: ease-out;
   transition-duration: 0.2s;
 }
@@ -136,10 +141,10 @@ padding: 0px, 10px, 0px, 10px;
   border-right: 1px;
   border-bottom: 1px;
   border-left: 1px;
-  border-color: orange;
+  border-color: rgb(6, 123, 219);
 }
 h5{
-  color: orange;
+  color: rgb(6, 123, 219);
 }
 .containerc{
   display: flex;
@@ -164,10 +169,10 @@ h5{
   color: black;
 }
 .linkss:hover{
-  color:orange;
+  color:rgb(132, 195, 247);
 }
 .color-ico{
-  color:orange;
+  color:rgb(6, 123, 219);
 }
 .ul{
   padding-top: 100px;
@@ -192,6 +197,12 @@ h5{
       transition: ease-in;
       transition-duration: 0.5s;
 }
+.jmb1{
+  font-size: 18px;
+}
+.jmb2{
+  font-size: 15px !important;
+}
 .size-cards{
   width: vw !important;
 }
@@ -214,12 +225,12 @@ h5{
   padding-top: 100px;
 }
 .color-buttons{
-color: orange;
-border-color: orange;
+color: rgb(6, 123, 219);
+border-color: rgb(6, 123, 219);
 }
 .color-buttons:hover{
-  background-color: orange;
-  border-color: orange;
+  background-color: rgb(6, 123, 219);
+  border-color: rgb(6, 123, 219);
 }
 @media only screen and (max-width: 960px){
   .flex-direction{
@@ -241,4 +252,8 @@ margin-bottom: 0px;
 }
 .hr-jmb{
   border-top: 1px solid white;
+}
+button:focus.navbar-toggler{
+  border-color: rgb(132, 195, 247) !important;
+  /* color: rgb(132, 195, 247); */
 }
